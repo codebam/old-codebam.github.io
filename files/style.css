@@ -1,0 +1,125 @@
+body {
+  background: #151515;
+  color: #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  color: #eee;
+}
+
+h2 {
+  width: 247.58px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h3 {
+  color: #eee;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.panel:first-of-type:after {
+  content: "\f107";
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 40px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.box img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #eee;
+}
+.box h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.box h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.text {
+  max-width: 400px;
+  text-align: justify;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.links a {
+  color: inherit;
+  display: block;
+  font-size: 20px;
+}
