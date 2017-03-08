@@ -54,7 +54,6 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  width: 100vw;
   position: relative;
 }
 .panel:first-of-type:after {
