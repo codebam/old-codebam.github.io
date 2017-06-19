@@ -1,5 +1,5 @@
 body {
-  /*background: #151515;*/
+  /* background: #151515; */
   background: black;
   color: #ccc;
   font-family: 'Inconsolata', monospace;
@@ -18,34 +18,34 @@ h1 {
   font-size: 5em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 0.5em;
+  /*! margin: 0.5em; */
   text-align: center;
   color: #eee;
 }
 
 h2 {
-  width: 98vw;
+  /*! width: 98vw; */
   font-size: 3em;
-  text-align: center;
+  /*! text-align: center; */
 }
 
 h3 {
   color: #eee;
-  margin-top: 2%;
+  /*! margin-top: 2%; */
   font-family: 'Roboto', sans-serif;
   font-size: 4vh;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-top:2vh;
-  /*margin-bottom: 2vh;*/
+  /*! margin:2vh; */
+  /*! margin-bottom: 2vh; */
   text-align: center;
 }
 
 p {
   color: #eee;
-  margin-top: 2vh;
+  /*! margin-top: 2vh; */
   letter-spacing: 0.1em;
-  margin-bottom: 2vh;
+  /*! margin-bottom: 2vh; */
   text-align: justify;
 }
 
@@ -88,14 +88,14 @@ p {
   -moz-box-pack:center;
   -ms-box-pack:center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -moz-box-align:center;
   -ms-box-align:center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient:vertical;
   -moz-box-orient:vertical;
   -ms-box-orient:vertical;
@@ -103,12 +103,18 @@ p {
   -moz-box-direction:normal;
   -ms-box-direction:normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-   margin-top: 10vh;
-  height: 100vh;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 10vh;
+  height: 90vh;
   justify-content:space-around;
   position: relative;
+  /*! padding-top: 3em; */
+  /*! bottom: 0; */
+  /*! display: grid; */
+  /*! grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh; */
+  /*! grid-template-columns: 15vw 15vw 15vw 15vw 15vw; */
+  /*! grid-row: 2 / 5; */
 }
 
 /*
@@ -126,6 +132,7 @@ p {
   -moz-osx-font-smoothing: grayscale;
   margin-bottom: 5vh;
 }*/
+
 
 .section {
   display: -webkit-box;
@@ -147,8 +154,8 @@ p {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  padding: 0 1em;
-  margin-bottom: 1vh;
+  /*! padding: 0 1em; */
+  /*! margin-bottom: 1vh; */
 }
 
 .box {
@@ -159,6 +166,8 @@ p {
 .box h4 {
   font-family: 'Inconsolata', monospace;
   font-size: 3vh;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .box h4 a {
@@ -177,4 +186,9 @@ p {
   color: inherit;
   display: block;
   font-size: 3vh;
+}
+
+.grid-element-1 {
+  grid-column: 1 / 6;
+  grid-row: 1;
 }
