@@ -18,7 +18,7 @@ h1 {
   font-size: 5em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  /*! margin: 0.5em; */
+  /* margin: 0.5em; */
   text-align: center;
   color: #eee;
 }
@@ -36,7 +36,7 @@ h3 {
   font-size: 4vh;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /*! margin:2vh; */
+  margin:2vh;
   /*! margin-bottom: 2vh; */
   text-align: center;
 }
@@ -44,7 +44,7 @@ h3 {
 p {
   color: #eee;
   /*! margin-top: 2vh; */
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   /*! margin-bottom: 2vh; */
   text-align: justify;
 }
