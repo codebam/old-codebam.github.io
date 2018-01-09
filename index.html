@@ -1,82 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Sean Behan - *nix user / developer / student</title>
   <meta name="description" content="Personal portfolio and contact info">
   <meta name="author" content="Sean Behan">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 
 <body>
+    <div class="container">
+	<img class="profile-pic" src="https://secure.gravatar.com/avatar/a1f02ebb517a5fc8ac08b61c7bf34146?size=500"/>
+        <h1>Sean Behan</h1>
+        <h3>*nix user / developer / student</h3>
+	<p>
+            I'm a student majoring in Computer Science at Trent University. I
+            have 5 years of GNU/Linux experience and enjoy sharing my knowledge
+            with others. In my spare time I enjoy writing code, learning new
+            programming languages, and helping others troubleshoot their issues
+            over IRC.
+        </p>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="text-center">
-        <div class="twelve columns" style="margin-top: 10%">
-        <div class="page1">
-          <h3>Sean Behan</h3>
-          <h5>*nix user / developer / student</h5>
-          <p>
-          I'm a student majoring in Computer Science at Trent University. I
-          have 5 years of GNU/Linux experience and enjoy sharing my knowledge
-          with others. In my spare time I enjoy writing code, learning new
-          programming languages, and helping others troubleshoot their issues
-          over IRC.
-          </p>
-        </div>
-          <h6>Projects</h6>
-          <div class="bar-spacer"></div>
-          <nav class="bar">
-              <ul class="bar-list">
-                <li class="bar-item"><a class="bar-link" href="https://github.com/codebam/duckduckgo-bot" style="text-transform: uppercase;">DDG bot</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://github.com/codebam/finhacks2016" style="text-transform: uppercase;">Sparkle</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://github.com/codebam/ECHACKS2016" style="text-transform: uppercase;">cubesvr</a></li>
-              </ul>
-          </nav>
-          <h6>Where to find me</h6>
-          <div class="bar-spacer"></div>
-          <nav class="bar">
-              <ul class="bar-list">
-                <li class="bar-item"><a class="bar-link" href="email.txt">Email</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://github.com/codebam">GitHub</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://ca.linkedin.com/in/sean-behan-81727028">LinkedIn</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://t.me/codebam">Telegram</a></li>
-                <li class="bar-item"><a class="bar-link" href="https://raw.githubusercontent.com/codebam/resume/master/resume-white.png">Resume</a></li>
-              </ul>
-          </nav>
-        </div>
-      </div>
+        <h3 class="section-title">Projects</h3>
+	    <div class=links-flexbox>
+		<a class="link" href="https://github.com/codebam/duckduckgo-bot">DDG Bot</a>
+		<a class="link" href="https://github.com/codebam/finhacks2016">Sparkle</a>
+		<a class="link" href="https://github.com/codebam/ECHACKS2016">CubesVR</a>
+	    </div>
+
+        <h3 class="section-title">Where to find me</h3>
+	    <div class=links-flexbox>
+		<a class="link" href="email.txt">Email</a>
+		<a class="link" href="https://github.com/codebam">GitHub</a>
+		<a class="link" href="https://ca.linkedin.com/in/sean-behan-81727028">LinkedIn</a>
+		<a class="link" href="https://t.me/codebam">Telegram</a>
+		<a class="link" href="https://raw.githubusercontent.com/codebam/resume/master/resume-white.png">Resume</a>
+	    </div>
     </div>
-  </div>
-
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
