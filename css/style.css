@@ -1,5 +1,5 @@
 body {
-    font-family: Inconsolata, Monospace, Sans-Serif;
+    font-family: Monospace, Sans-Serif;
     text-align: justify;
     margin: 1em;
     color: #222;
@@ -26,7 +26,7 @@ body {
 h1 {
     margin: 0;
     grid-column: 1 / -1;
-    font-family: 'Fira Sans', Sans-Serif;
+    font-family: Sans-Serif;
     font-size: 2em;
     font-weight: 300;
 }
@@ -47,7 +47,7 @@ p {
 
 .section-title {
     grid-column: 1 / -1;
-    font-family: 'Fira Sans', Sans-Serif;
+    font-family: Sans-Serif;
 }
 
 .links-flexbox {
